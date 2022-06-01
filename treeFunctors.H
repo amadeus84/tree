@@ -21,7 +21,8 @@
 #include <regex>
 #include <cassert>
 
-#include "../COMMON/where.H"
+#define WhereMacro \
+    __FILE__ << ": line: " << __LINE__ << ": " << __FUNCTION__
 
 using namespace std;
 

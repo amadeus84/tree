@@ -2,6 +2,7 @@
 // Driver for tree loading and tree navigation commands (ls, pwd, cd, tree, q).
 //
 // g++ -std=c++20 -g -Wall -o treeNav treeNav.C
+// g++ -std=c++20 -O3 -Wall -o treeNav treeNav.C
 //
 
 #include "treeCommands.H"
